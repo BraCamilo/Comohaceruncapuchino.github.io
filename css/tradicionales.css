@@ -1,0 +1,24 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: var(--tituloColor);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover{
+    color: var(--segundoColor);
+}

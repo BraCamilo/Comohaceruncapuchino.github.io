@@ -1,0 +1,17 @@
+header{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header img{
+    width: 150px;
+}
+
+header h1{
+    color: var(--tituloColor);
+    margin: 0;
+    text-shadow: 2px 2px 5px gray;
+}

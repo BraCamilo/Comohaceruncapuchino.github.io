@@ -1,0 +1,45 @@
+#contenido{
+    float: left;
+    /*En este contenido la idea es buscar la forma de hacer que ocupe solo el lugar que necesitamos que ucupe, menos los 300
+pixeles que ocupa el aside*/
+    width: calc(100% - 300px);
+    /*Usando la opcion de css "calc" la cual nos permite hacer la medicion de tamaños mediante resta*/
+    margin-top: 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#contenido h1{
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: var(--tituloColor);
+    text-shadow: 2px /*distancia*/ 2px /*distancia*/ 5px /*difuminado*/ var(--tituloColor);
+}
+
+#contenido article{
+    background-color: var(--primerColor);
+    padding: 40px;
+    margin-bottom: 30px;
+    border: solid 1px var(--segundoColor);
+    box-shadow: 2px /*distancia*/ 2px /*distancia*/ 5px /*difuminado*/ var(--tercerColor);
+}
+
+#contenido article h2{
+    margin: 0;
+    color: var(--tituloColor);
+}
+
+#contenido article a{
+    font-size: 20px;    
+    float: right;
+
+}
+
+
+@media (max-width: 700px){
+    #contenido{
+        width: 100%;
+    }
+}
+

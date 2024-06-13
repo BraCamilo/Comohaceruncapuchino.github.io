@@ -1,0 +1,50 @@
+aside{
+    float: left;
+    width: 300px;
+    background-color: var(--primerColor);
+    margin-top: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    border: solid 1px var(--tituloColor);
+    box-shadow: 2px 2px 5px var(--tituloColor);
+}
+
+aside h3{
+    font-size: 18px;
+    background-color: var(--tercerColor);
+    text-align: center;
+    padding: 5px;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+
+}
+
+.widget{
+    margin-bottom: 60px;
+}
+
+.widget form input[type="email"], .widget form input[type="password"]{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.widget form input[type="submit"]{
+    width: 100%;
+    background-color: var(--segundoColor);
+    padding: 10px;
+    border: none;
+}
+.widget form input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: var(--cuartoColor);
+    transition: 0.3s;
+}
+
+
+aside>div>a>img{
+    width: 250px;
+    padding: 1px 5px 5px 1px;
+    
+}
+
